@@ -1300,3 +1300,6 @@
  	.section-contact-us .social-links li:hover {
  		opacity: 1;
  	}
+ 	.theme-option {
+ 		display: none;
+ 	}
