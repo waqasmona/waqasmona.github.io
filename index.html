@@ -55,8 +55,8 @@
 					<li><a href="#" data-value="education">EDUCATION</a></li>
 					<li><a href="#" data-value="experience">EXPERIENCE</a></li>
 					<li><a href="#" data-value="portfolio">PORTFOLIO</a></li>
-					<li><a href="#" data-value="pricing">PRICING</a></li>
-					<li><a href="#" data-value="testimonials">TESTIMONIALS</a></li>
+					<!-- <li><a href="#" data-value="pricing">PRICING</a></li>
+					<li><a href="#" data-value="testimonials">TESTIMONIALS</a></li> -->
 					<li><a href="#" data-value="interests">INTERESTS</a></li>
 <!-- 					<li><a href="#" data-value="blog">BLOG</a></li>
 -->					<li><a href="#" data-value="contact-us">CONTACT US</a></li>
@@ -871,7 +871,7 @@
 		</div>
 	</section>
 	<!-- #TESTIMONIALS# -->
-	<section id="testimonials" class="section section-testimonials wow fadeInUp" data-wow-offset="40">
+	<section id="testimonials" class="section section-testimonials wow fadeInUp" data-wow-offset="40" style="display: none;">
 		<div class="header-section">
 			<h2 class="h2-section">TESTIMONIALS</h2>
 		</div>
@@ -1070,7 +1070,8 @@
 			<div class="col-sm-7">
 				<div class="form-content">
 					<h3>LET'S HAVE A CONVERSATION</h3>
-					<form id='contactForm' data-toggle='validator' method='post'><input type='hidden' name='form-name' value='contactForm' />
+					<form action='mailto:waqasmona3@gmail.com' enctype='multipart/form-data' id='contactForm' data-toggle='validator' method='post'>
+						<input type='hidden' name='form-name' value='contactForm' />
 						<input type="text" id="name" placeholder="Name" required>
 						<input type="email" id="email" placeholder="Email" required>
 						<textarea id="message" placeholder="Message" required></textarea>
